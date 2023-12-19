@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use("/api/v1/auth", require("./routes/authRoutes"));
 
-mongoose.connect("mongodb://0.0.0.0:27017")
+mongoose.connect("mongodb://0.0.0.0:27017/test")
 .then(()=>{
     console.log(`\n☘️  MongoDB Connected! \n`)
 }).catch((error)=>{

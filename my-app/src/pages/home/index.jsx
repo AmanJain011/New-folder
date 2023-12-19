@@ -4,9 +4,9 @@ import './style.css'; // Make sure to import your stylesheet
 const Home = () => {
   return (
     <div>
-      <nav>
-        <div className="menu">
-          <div className="logo">
+      <nav className='nav1'>
+        <div className="menu1">
+          <div className="logo1">
             <a href="#">Campus Innovations!</a>
           </div>
           <ul>
@@ -17,11 +17,11 @@ const Home = () => {
           </ul>
         </div>
       </nav>
-      <div className="img"></div>
-      <div className="center">
-        <div className="btns">
+      <div className="img1"></div>
+      <div className="center1">
+        <div className="btns1">
           <button><Link to='/explore' className='link'>Explore</Link></button>
-          <button>Log In</button>
+          <button><Link to='/login' className='link'>Log In</Link></button>
         </div>
       </div>
     </div>
