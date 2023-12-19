@@ -21,7 +21,9 @@ const Dashboard = () => {
       </nav>
 
       <section className='section4'>
-        <h2>Welcome to Your College Dashboard</h2>
+        {
+          variable.pathname === "/college-dashboard" ? <h2>College Dashboard</h2> : <h2>Company Dashboard</h2>
+        }
         <p>Select an option from the navigation menu to get started.</p>
       </section>
 
