@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import './style.css'; // Import your CSS file
 
 const Explore = () => {
@@ -12,8 +13,8 @@ const Explore = () => {
               <p className="text-title">Innovation</p>
               <p className="text-body">"Innovation is the relentless pursuit of novel ideas and creative solutions that drive positive change and progress."</p>
             </div>
-            <button className="card-button">More info</button>
-          </div>
+            <Link to="/inovation" className="link"><button className="card-button">More info</button></Link>
+          </div> 
           <div className="card">
             <div className="card-details">
               <p className="text-title">Academic projects</p>

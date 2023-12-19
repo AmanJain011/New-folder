@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css'; // Import your stylesheet
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
   return (
-    <div className='.body3'>
+    <div className='body3'>
         <div className="login3 " id="login3">
       <div className="head3">
         <h1 className="company3">Campus Innovation</h1>
@@ -13,7 +14,7 @@ const LoginForm = () => {
         <form>
           <input type="text" placeholder="AISHE-Id" className="text3" id="username3" required /><br />
           <input type="password" placeholder="••••••••••••••" className="password3" /><br />
-          <a href="#" className="btn-login3" id="do-login3">Login</a>
+          <Link to="/college-dashboard" className="btn-login3" id="do-login3">Login</Link>
           <a href="#" className="forgot3">Forgot?</a>
         </form>
       </div>
