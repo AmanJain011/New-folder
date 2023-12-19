@@ -70,11 +70,14 @@ nav .menu{
     background-attachment: fixed;
 }
 .img::before{
+  background-image: url("../../assets/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .center{
   position: absolute;
